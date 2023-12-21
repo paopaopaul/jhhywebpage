@@ -38,7 +38,7 @@ const Header = ({
               Contact
             </button>
             <button className="button">
-              <a href="mailto:lingzishengppl15@gmail.com">Products</a>
+              <a href="mailto:lingzishengppl15@gmail.com">Email</a>
             </button>
           </div>
         </OutsideClickHandler>

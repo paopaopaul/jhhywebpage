@@ -13,19 +13,19 @@ import "./Value.css";
 import data from "../../utils/accordion";
 import { forwardRef } from "react";
 
-const Value = forwardRef((props, ref) => {
+const Value = forwardRef((_props, ref) => {
   return (
-    <section className="v-wrapper" ref={ref}>
+    <section className="v-wrapper">
       <div className="paddings innerWidth flexCenter v-container">
         {/* left side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="./value.png" alt="" />
+            <img src="./Value1.jpg" alt="" />
           </div>
         </div>
 
         {/* Right side */}
-        <div className="flexColStart v-right">
+        <div className="flexColStart v-right" ref={ref}>
           <span className="orangeText">Information</span>
           <span className="primaryText">Who We Are</span>
           <span className="secondaryText">

@@ -4,15 +4,15 @@ import "swiper/css";
 import "./Residencies.css";
 import data from "../../utils/slider.json";
 import { sliderSettings } from "../../utils/common.js";
-import { forwardRef } from 'react';
+import { forwardRef } from "react";
 
-const Residencies = forwardRef((props, ref) => {
+const Residencies = forwardRef((_props, ref) => {
   return (
     <section className="r-wrapper" ref={ref}>
       <div className="paddigns innerWidth r-container">
         <div className="flexColStart r-head">
-          <br/>
-          <br/>
+          <br />
+          <br />
           <span className="orangeText">Best Choices</span>
           <span className="primaryText ">Popular Cases</span>
         </div>
@@ -22,10 +22,7 @@ const Residencies = forwardRef((props, ref) => {
             <SwiperSlide key={i}>
               <div className="flexColStart r-card">
                 <img src={card.image} alt="home" />
-                <span className="secondaryText r-price">
-                  <span style={{ color: "orange" }}>$</span>
-                  <span>{card.price}</span>
-                </span>
+                <span className="secondaryText r-price"></span>
                 <span className="primaryText">{card.name}</span>
                 <span className="secondaryText">{card.detail}</span>
               </div>
@@ -50,8 +47,18 @@ const SliderButtons = () => {
 
   return (
     <div className="flexCenter r-buttons">
-      <button onClick={() => swiper.isBeginning ? goToLastSlide() : swiper.slidePrev()}>&lt;</button>
-      <button onClick={() => swiper.isEnd ? goToFirstSlide() : swiper.slideNext()}>&gt;</button>
+      <button
+        onClick={() =>
+          swiper.isBeginning ? goToLastSlide() : swiper.slidePrev()
+        }
+      >
+        &lt;
+      </button>
+      <button
+        onClick={() => (swiper.isEnd ? goToFirstSlide() : swiper.slideNext())}
+      >
+        &gt;
+      </button>
     </div>
   );
 };

@@ -1,13 +1,12 @@
 import React from "react";
 import "./Contact.css";
 import { FaTiktok } from "react-icons/fa";
-import { RiInstagramFill } from "react-icons/ri";
 import { AiFillYoutube } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
 import { forwardRef } from "react";
 import { FaLinkedin } from "react-icons/fa";
 
-const Contact = forwardRef((props, ref) => {
+const Contact = forwardRef((_props, ref) => {
   return (
     <section className="c-wrapper" ref={ref}>
       <div className="paddings innerWidth flexCenter c-container">
@@ -71,7 +70,12 @@ const Contact = forwardRef((props, ref) => {
                     <span className="primaryText">Tiktok</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Watch Now</div>
+                <a
+                  href="https://www.tiktok.com/@mzljifittnr?_t=8iMkkziNwDu&_r=1"
+                  className="flexCenter button"
+                >
+                  Watch Now
+                </a>
               </div>
 
               {/* Forth Mode */}
@@ -98,7 +102,7 @@ const Contact = forwardRef((props, ref) => {
         {/* Right Side */}
         <div className="c-right">
           <div className="image-container">
-            <img src="./contact.jpg" alt="" />
+            <img src="./heropic2.jpg" alt="" />
           </div>
         </div>
       </div>

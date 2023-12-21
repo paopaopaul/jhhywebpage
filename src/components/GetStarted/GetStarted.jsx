@@ -4,7 +4,7 @@ import { forwardRef } from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-const GetStarted = forwardRef((props, ref) => {
+const GetStarted = forwardRef((_props, ref) => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();

@@ -21,7 +21,6 @@ const Hero = () => {
               Discover <br></br> Most Reliable <br /> Container Houses
               <br />
               {/* 取网页大小 */}
-              {false && <div>im paul</div>}
               <br />
             </motion.h1>
           </div>
@@ -80,7 +79,7 @@ const Hero = () => {
             }}
             className="image-container"
           >
-            <img src="./hero2.jpg" alt="" />
+            <img src="./Contact1.jpg" alt="" />
           </motion.div>
         </div>
       </div>
