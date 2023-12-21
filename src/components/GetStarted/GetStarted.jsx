@@ -11,7 +11,7 @@ const GetStarted = forwardRef((_props, ref) => {
 
     emailjs
       .sendForm(
-        "service_5bpaz8e",
+        "service_k2jxqcg",
         "template_1xco66h",
         form.current,
         "NrmMWGtotNb1e-yAc"
