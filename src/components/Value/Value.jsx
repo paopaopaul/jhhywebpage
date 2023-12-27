@@ -35,8 +35,7 @@ const Value = forwardRef((_props, ref) => {
 
           <Accordion
             className="accordion"
-            allowMultipleExpanded={false}
-            preExpanded={[0]}
+            allowMultipleExpanded={true}
             allowZeroExpanded={true}
           >
             {data.map((item, i) => {
