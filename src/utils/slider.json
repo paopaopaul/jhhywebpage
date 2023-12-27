@@ -1,32 +1,32 @@
 [
   {
-    "name": "a",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./slide1.jpg"
+    "name": "Beijing, China",
+    "detail": "Beijing Winter Olympics Skiing Yanqing Project",
+    "image": "./sl1.png"
   },
   {
-    "name": "b",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Beijing, China",
+    "detail": "Beijing Daxing International Airport Airborne Economic Temporary Command Post",
+    "image": "./sl2.jpg"
   },
   {
-    "name": "c",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Hebei, China",
+    "detail": "JHHY Yi'an Heibei Main Office",
+    "image": "./sl3.jpg"
   },
   {
-    "name": "d",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Beijing, China",
+    "detail": "Container Housing Show House",
+    "image": "./sl4.jpg"
   },
   {
-    "name": "e",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Jinan, China",
+    "detail": "Jinan Tumor Hospital Container Project Department",
+    "image": "./sl5.jpg"
   },
   {
-    "name": "f",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Jilin, China",
+    "detail": "Zhongqing Construction Changchun Metro Line 6 Project Department",
+    "image": "./sl6.jpg"
   }
 ]
