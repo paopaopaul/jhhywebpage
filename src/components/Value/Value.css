@@ -27,12 +27,11 @@
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 20px;
-  min-width: 600px;
 }
 
 .accordionItem.expanded {
   box-shadow: var(--shadow);
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 .accordionButton {
